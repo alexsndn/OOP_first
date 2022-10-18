@@ -10,9 +10,22 @@ public class Human {
         } else {
             this.yearOfBirth = 0;
         }
+        if (name == null) {
+            this.name = "Информация не указана";
+        } else {
             this.name = name;
+        }
+        if (city == null) {
+            this.city = "Информация не указана";
+        } else {
             this.city = city;
+        }
+        if (job == null) {
+            this.job = "Информация не указана";
+        } else {
             this.job = job;
+        }
+
     }
 
     @Override
